@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+<link rel="icon"   href="./images/Weather-512.webp">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=water_drop" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=air" />
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+
+<body>
+		
+    <div class="site-content">
+        <div class="site-header">
+            <div class="container">
+                <a href="index.html" class="branding">
+                    <img src="./images/logo@2x.png" alt="" class="logo">
+                    <div class="logo-type">
+                        <h1 class="site-title">Weather app</h1>
+                        <small class="site-description">tagline goes here</small>
+                    </div>
+                </a>
+
+                <!-- Default snippet for navigation -->
+                <div class="main-navigation">
+                    <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+                    <ul class="menu">
+                        <li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+                        <li class="menu-item"><a href="">News</a></li>
+                        <li class="menu-item"><a href="">Live cameras</a></li>
+                        <li class="menu-item"><a href="">Photos</a></li>
+                        <li class="menu-item"><a href="/contant.html">Contact</a></li>
+                    </ul> <!-- .menu -->
+                </div> <!-- .main-navigation -->
+
+                <div class="mobile-navigation"></div>
+
+            </div>
+        </div> <!-- .site-header -->
+
+        <div class="hero" data-bg-image="./images/banner.png" style="background-image: url(./images/banner.png);">
+            <div class="container">
+                <form action="#" class="find-location">
+                    <input class="city-input" type="text" placeholder="Find your location...">
+                    <input class="btn-find" type="submit" value="Find">
+                </form>
+
+            </div>
+        </div>
+        <div class="forecast-table">
+            <div class="container">
+                <div class="forecast-container">
+                    <div class="today forecast bg-dark">
+                        <div class="forecast-header">
+                            <div class="day">Monday</div>
+                            <div class="date">6 Oct</div>
+                        </div> <!-- .forecast-header -->
+                        <div class="forecast-content">
+                            <div class="location">New York</div>
+                            <div class="degree">
+                                <div class="num">23<sup>o</sup>C</div>
+                                <div class="forecast-icon">
+                                    <img src="./images/icon-1.svg" alt="" width=100 class="weather-summary-img">
+                                </div>	
+                                
+                            </div>
+
+
+                            <h3 class="custom text-start p-3 text-info">Partly cloudy</h3>
+                            <div class="weather-conditions-container">
+                                <div class="condition-info">
+                                    <i class="fa-solid fa-droplet"></i> <span class="humidity-value-txt">20%</span>
+                                    <i class="fa-solid fa-wind"></i>  <span class="wind-value-txt">18km/h</span>
+                                    <i class="fa-solid fa-compass"></i> <span>East</span>
+                                
+                                </div>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="forecast-item-container">
+                        <div class="forecast">
+                            <div class="forecast-header">
+                                <div class="day">Tuesday</div>
+                            </div> <!-- .forecast-header -->
+                            <div class="forecast-content">
+                                <div class="forecast-icon">
+                                    <img src="images/icons/icon-3.svg" alt="" width=48>
+                                </div>
+                                <div class="degree">23<sup>o</sup>C</div>
+                                <small>18<sup>o</sup></small>
+                            </div>
+                            <div class="custom text-center p-3 text-info">Partly cloudy</div>
+                        </div>
+                        
+                        <div class="forecast">
+                            <div class="forecast-header">
+                                <div class="day">Wednesday</div>
+                            </div> <!-- .forecast-header -->
+                            <div class="forecast-content">
+                                <div class="forecast-icon">
+                                    <img src="./images/icons/icon-5.svg" alt="" width=48>
+                                </div>
+                                <div class="degree">23<sup>o</sup>C</div>
+                                <small>18<sup>o</sup></small>
+                            </div>
+                            <div class="custom text-center p-3 text-info">Partly cloudy</div>
+                        </div>
+
+                        <div class="forecast">
+                            <div class="forecast-header">
+                                <div class="day">Wednesday</div>
+                            </div> <!-- .forecast-header -->
+                            <div class="forecast-content">
+                                <div class="forecast-icon">
+                                    <img src="./images/icons/icon-5.svg" alt="" width=48>
+                                </div>
+                                <div class="degree">23<sup>o</sup>C</div>
+                                <small>18<sup>o</sup></small>
+                            </div>
+                            <div class="custom text-center p-3 text-info">Partly cloudy</div>
+                        </div>
+
+                        <div class="forecast">
+                            <div class="forecast-header">
+                                <div class="day">Wednesday</div>
+                            </div> <!-- .forecast-header -->
+                            <div class="forecast-content">
+                                <div class="forecast-icon">
+                                    <img src="./images/icons/icon-5.svg" alt="" width=48>
+                                </div>
+                                <div class="degree">23<sup>o</sup>C</div>
+                                <small>18<sup>o</sup></small>
+                            </div>
+                            <div class="custom text-center p-3 text-info">Partly cloudy</div>
+                        </div>
+
+                        <div class="forecast">
+                            <div class="forecast-header">
+                                <div class="day">Wednesday</div>
+                            </div> <!-- .forecast-header -->
+                            <div class="forecast-content">
+                                <div class="forecast-icon">
+                                    <img src="./images/icons/icon-5.svg" alt="" width=48>
+                                </div>
+                                <div class="degree">23<sup>o</sup>C</div>
+                                <small>18<sup>o</sup></small>
+                            </div>
+                            <div class="custom text-center p-3 text-info">Partly cloudy</div>
+                        </div>
+
+                        <div class="forecast">
+                            <div class="forecast-header">
+                                <div class="day">Wednesday</div>
+                            </div> <!-- .forecast-header -->
+                            <div class="forecast-content">
+                                <div class="forecast-icon">
+                                    <img src="./images/icons/icon-5.svg" alt="" width=48>
+                                </div>
+                                <div class="degree">23<sup>o</sup>C</div>
+                                <small>18<sup>o</sup></small>
+                            </div>
+                            <div class="custom text-center p-3 text-info">Partly cloudy</div>
+                        </div>
+
+                    </div>
+                    
+                    
+                    
+                   
+                    
+                    
+                </div>
+            </div>
+        </div>
+        
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="Enter your email to subscribe...">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1">
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="colophon">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+        </footer> <!-- .site-footer -->
+    </div>
+
+<script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+
+
+  
+</body>
+</html>
